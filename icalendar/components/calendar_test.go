@@ -1,8 +1,8 @@
 package components
 
 import (
-	"github.com/taviti/caldav-go/icalendar"
-	. "github.com/taviti/check"
+	"github.com/gtrevg/caldav-go/icalendar"
+	. "github.com/gtrevg/check"
 	"testing"
 )
 
@@ -16,5 +16,5 @@ func TestCalendar(t *testing.T) { TestingT(t) }
 func (s *CalendarSuite) TestMarshal(c *C) {
 	enc, err := icalendar.Marshal(s.calendar)
 	c.Assert(err, IsNil)
-	c.Assert(enc, Equals, "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//taviti/caldav-go//NONSGML v1.0.0//EN\r\nEND:VCALENDAR")
+	c.Assert(enc, Equals, "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//gtrevg/caldav-go//NONSGML v1.0.0//EN\r\nEND:VCALENDAR")
 }

@@ -2,7 +2,7 @@ package components
 
 import (
 	"fmt"
-	"github.com/taviti/caldav-go/icalendar/values"
+	"github.com/gtrevg/caldav-go/icalendar/values"
 	"net/url"
 	"time"
 )

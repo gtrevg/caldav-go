@@ -1,9 +1,9 @@
 package caldav
 
 import (
-	"github.com/taviti/caldav-go/icalendar"
-	"github.com/taviti/caldav-go/utils"
-	"github.com/taviti/caldav-go/webdav"
+	"github.com/gtrevg/caldav-go/icalendar"
+	"github.com/gtrevg/caldav-go/utils"
+	"github.com/gtrevg/caldav-go/webdav"
 	"io/ioutil"
 	"log"
 )

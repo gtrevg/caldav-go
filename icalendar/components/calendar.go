@@ -2,9 +2,10 @@ package components
 
 import (
 	"fmt"
-	"github.com/taviti/caldav-go/icalendar/values"
-	"github.com/taviti/caldav-go/utils"
 	"time"
+
+	"github.com/gtrevg/caldav-go/icalendar/values"
+	"github.com/gtrevg/caldav-go/utils"
 )
 
 type Calendar struct {
@@ -14,7 +15,7 @@ type Calendar struct {
 	Version string `ical:",2.0"`
 
 	// specifies the identifier for the product that created the iCalendar object
-	ProductId string `ical:"prodid,-//taviti/caldav-go//NONSGML v1.0.0//EN"`
+	ProductId string `ical:"prodid,-//gtrevg/caldav-go//NONSGML v1.0.0//EN"`
 
 	// specifies the text value that uniquely identifies the "VTIMEZONE" calendar component.
 	TimeZoneId string `ical:"tzid,omitempty"`

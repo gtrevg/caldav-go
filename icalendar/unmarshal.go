@@ -2,8 +2,8 @@ package icalendar
 
 import (
 	"fmt"
-	"github.com/taviti/caldav-go/icalendar/properties"
-	"github.com/taviti/caldav-go/utils"
+	"github.com/gtrevg/caldav-go/icalendar/properties"
+	"github.com/gtrevg/caldav-go/utils"
 	"log"
 	"reflect"
 	"regexp"

@@ -2,11 +2,11 @@ package caldav
 
 import (
 	"fmt"
-	cent "github.com/taviti/caldav-go/caldav/entities"
-	"github.com/taviti/caldav-go/icalendar/components"
-	"github.com/taviti/caldav-go/utils"
-	"github.com/taviti/caldav-go/webdav"
-	"github.com/taviti/caldav-go/webdav/entities"
+	cent "github.com/gtrevg/caldav-go/caldav/entities"
+	"github.com/gtrevg/caldav-go/icalendar/components"
+	"github.com/gtrevg/caldav-go/utils"
+	"github.com/gtrevg/caldav-go/webdav"
+	"github.com/gtrevg/caldav-go/webdav/entities"
 	"log"
 	"net/http"
 	"strings"

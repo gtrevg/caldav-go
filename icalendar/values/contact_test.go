@@ -1,8 +1,8 @@
 package values
 
 import (
-	"github.com/taviti/caldav-go/icalendar"
-	. "github.com/taviti/check"
+	"github.com/gtrevg/caldav-go/icalendar"
+	. "github.com/gtrevg/check"
 	"testing"
 )
 
